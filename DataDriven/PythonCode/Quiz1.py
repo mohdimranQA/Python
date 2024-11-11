@@ -1,3 +1,3 @@
 nameList = ['code','dummy',"DataTest"]
-pos = nameList.index("code")
+pos = nameList.index("coswde")
 print(pos*3)
