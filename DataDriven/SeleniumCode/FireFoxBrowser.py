@@ -7,7 +7,7 @@ from selenium import webdriver
 driver = webdriver.Firefox()
 
 # Open a website
-driver.get("https://www.google.com")
+driver.geddddt("https://www.google.com")
 
 # Optional: Perform actions on the page (e.g., search)
 # search_box = driver.find_element("name", "q")
