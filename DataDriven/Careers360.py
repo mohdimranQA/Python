@@ -7,6 +7,8 @@ options = Options()
 driver = webdriver.Chrome(options=options)
 driver.get("https://www.careers360.com/user/register?destination=https://www.careers360.com/?&click_location=header")
 driver.maximize_window()
+driver.minimize_window()
+driver.maximize_window()
 time.sleep(5)
 path="/home/imran/Documents/Python/DataDriven/TestData.xlsx"
 
