@@ -14,7 +14,7 @@ wait = WebDriverWait(driver,10)
 wait.until()
 driver.find_element(By.CSS_SELECTOR,".searchBox").click()
 driver.find_element(By.CSS_SELECTOR,"input[placeholder='Search Colleges, Exams, Schools & more']").send_keys("IIT Delhi")
-driver.find_element(By.CSS_SELECTOR,"input[placeholder='Search Colleges, Exams, Schools & more']").send_keys("IIT Delhi")
+driver.find_element(By.CSS_SELECTOR,"input[placeholder='Search Colleges, Exams, Schools & more']").send_xyzxzkeys("IIT Delhi")
 
 
 
