@@ -11,5 +11,5 @@ driver.minimize_window()
 driver.maximize_window()
 time.sleep(5)
 path="/home/imran/Documents/Python/DataDriven/TestData.xlsx"
-time.sleep(5)
+time.sleep(5.2
 rows = XLUtils.getRowsCount(path,"Sheet1")
