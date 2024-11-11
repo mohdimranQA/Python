@@ -5,6 +5,8 @@ options = Options()
 driver = webdriver.Chrome(options=options)    # Launch the Browse
 driver.get("https://www.careers360.com")  #   Open a URL
 driver.maximize_window()
+driver.minimize_window()
+driver.maximize_window()
 print(driver.current_url)   #  Get Current URL
 driver.refresh()   # Page refresh
 print(driver.title)    # page title
